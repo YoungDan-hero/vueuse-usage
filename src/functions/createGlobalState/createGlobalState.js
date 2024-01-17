@@ -4,14 +4,14 @@ import { createGlobalState } from "@vueuse/core";
 /**
 createGlobalState 是一个函数，它创建并返回一个全局状态对象。这个全局状态对象包含一个响应式的 count 变量，
 一个计算属性 doubleCount（它的值是 count 的两倍），以及一个 increment 方法，用于增加 count 的值。这个
-全局状态可以在 Vue 组件中被使用和共享。这个全局状态对象的主要用途是在不同的 Vue 组件中共享和管理状态。在你
-的代码中，你创建了两个组件 UsageCreateGlobalState 和 Usage2CreateGlobalState，这两个组件都使用了
-useGlobalState。在 UsageCreateGlobalState 组件中，你使用了 increment 方法，这个方法会在用户点击按钮时调用，
-从而增加 count 的值。在 Usage2CreateGlobalState 组件中，你使用了 count 和 doubleCount，在模板中展示了这两个值。
+全局状态可以在 Vue 组件中被使用和共享。这个全局状态对象的主要用途是在不同的 Vue 组件中共享和管理状态。在
+代码中，创建了两个组件 UsageCreateGlobalState 和 Usage2CreateGlobalState，这两个组件都使用了
+useGlobalState。在 UsageCreateGlobalState 组件中，使用了 increment 方法，这个方法会在用户点击按钮时调用，
+从而增加 count 的值。在 Usage2CreateGlobalState 组件中，使用了 count 和 doubleCount，在模板中展示了这两个值。
 总的来说，createGlobalState 实现了一个全局状态管理的功能，使得状态可以在多个组件之间共享和同步。
 这是一种常见的在 Vue 应用中管理状态的方式，特别是当状态需要在多个组件之间共享时。
  **/
-  
+
 /**
  全局状态管理在许多应用场景中都是非常有用的。以下是一些可能的应用场景：
 

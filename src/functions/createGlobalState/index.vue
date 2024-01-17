@@ -4,10 +4,9 @@ import Usage2CreateGlobalState from "./Usage2.vue";
 </script>
 
 <template>
-  <div>createGlobalState</div>
-  <div>----------------------------</div>
-  <UsageCreateGlobalState />
-  <div>----------------------------</div>
-  <Usage2CreateGlobalState />
+  <div>
+    <UsageCreateGlobalState />
+    <Usage2CreateGlobalState />
+  </div>
 </template>
 <style scoped></style>

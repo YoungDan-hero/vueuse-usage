@@ -1,14 +1,17 @@
 import { createRouter, createWebHashHistory } from "vue-router";
 import CreateGlobalState from "../functions/createGlobalState/index.vue";
+import CreateInjectionState from "../functions/createInjectionState/index.vue";
 
 const routes = [
   {
-    path: "/",
-    redirect: "/createGlobalState",
+    path: "/createGlobalState",
+    name: "CreateGlobalState",
+    component: CreateGlobalState,
   },
   {
-    path: "/createGlobalState",
-    component: CreateGlobalState,
+    path: "/createInjectionState",
+    name: "CreateInjectionState",
+    component: CreateInjectionState,
   },
 ];
 

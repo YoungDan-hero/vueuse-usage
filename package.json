@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@vueuse/core": "^10.7.2",
+    "@vueuse/router": "^10.7.2",
+    "@vueuse/shared": "^10.7.2",
     "vue": "^3.3.11",
     "vue-router": "^4.2.5"
   },

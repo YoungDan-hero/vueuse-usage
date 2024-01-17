@@ -1,7 +1,11 @@
-<script setup></script>
-
+<script setup>
+import Navigation from "../src/pages/navigation/index.vue";
+</script>
 <template>
-  <RouterView />
+  <Navigation />
+  <div
+    style="flex: 1; display: flex; align-items: center; justify-content: center"
+  >
+    <RouterView />
+  </div>
 </template>
-
-<style scoped></style>
