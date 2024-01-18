@@ -9,8 +9,8 @@ const add = () => {
 <template>
   <div>
     <div>
-      <button @click="increment">点击</button>
-      <button @click="add">+1</button>
+      <el-button @click="increment">点击</el-button>
+      <el-button @click="add">+1</el-button>
     </div>
 
     <div>

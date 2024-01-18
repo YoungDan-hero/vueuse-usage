@@ -1,11 +1,18 @@
 <script setup>
-import Navigation from "../src/pages/navigation/index.vue";
+import Layout from "../src/layout/index.vue";
 </script>
 <template>
-  <Navigation />
-  <div
-    style="flex: 1; display: flex; align-items: center; justify-content: center"
-  >
-    <RouterView />
+  <div style="flex: 1; display: flex">
+    <Layout />
+    <div
+      style="
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <RouterView />
+    </div>
   </div>
 </template>
