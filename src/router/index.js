@@ -5,7 +5,7 @@ import UseStorage from "../functions/useStorage/index.vue";
 import UseActiveElement from "../functions/useActiveElement/index.vue";
 import UseDraggable from "../functions/useDraggable/index.vue";
 import UseElementVisibility from "../functions/useElementVisibility/index.vue";
-
+import UseIntersectionObserver from "../functions/useIntersectionObserver/index.vue";
 const routes = [
   {
     path: "/createGlobalState",
@@ -36,6 +36,11 @@ const routes = [
     path: "/useElementVisibility",
     name: "UseElementVisibility",
     component: UseElementVisibility,
+  },
+  {
+    path: "/useIntersectionObserver",
+    name: "UseIntersectionObserver",
+    component: UseIntersectionObserver,
   },
 ];
 
