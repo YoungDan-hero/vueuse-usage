@@ -10,6 +10,7 @@ import Layout from "../src/layout/index.vue";
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow: hidden;
       "
     >
       <RouterView />

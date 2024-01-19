@@ -4,6 +4,8 @@ import CreateInjectionState from "../functions/createInjectionState/index.vue";
 import UseStorage from "../functions/useStorage/index.vue";
 import UseActiveElement from "../functions/useActiveElement/index.vue";
 import UseDraggable from "../functions/useDraggable/index.vue";
+import UseElementVisibility from "../functions/useElementVisibility/index.vue";
+
 const routes = [
   {
     path: "/createGlobalState",
@@ -29,6 +31,11 @@ const routes = [
     path: "/useDraggable",
     name: "UseDraggable",
     component: UseDraggable,
+  },
+  {
+    path: "/useElementVisibility",
+    name: "UseElementVisibility",
+    component: UseElementVisibility,
   },
 ];
 
