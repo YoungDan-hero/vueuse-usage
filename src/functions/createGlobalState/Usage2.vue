@@ -3,7 +3,7 @@ import { useGlobalState } from "./createGlobalState.js";
 const { count, doubleCount } = useGlobalState();
 </script>
 <template>
-  <ul>
+  <ul class="own">
     <li>count: {{ count }}</li>
     <li>double: {{ doubleCount }}</li>
   </ul>
