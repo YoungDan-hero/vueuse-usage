@@ -8,6 +8,8 @@ import UseElementVisibility from "../functions/useElementVisibility/index.vue";
 import UseIntersectionObserver from "../functions/useIntersectionObserver/index.vue";
 import UseMouseInElement from "../functions/useMouseInElement/index.vue";
 import UseWindowFocus from "../functions/useWindowFocus/index.vue";
+import UseBrowserLocation from "../functions/useBrowserLocation/index.vue";
+
 const routes = [
   {
     path: "/createGlobalState",
@@ -53,6 +55,11 @@ const routes = [
     path: "/useWindowFocus",
     name: "UseWindowFocus",
     component: UseWindowFocus,
+  },
+  {
+    path: "/useBrowserLocation",
+    name: "UseBrowserLocation",
+    component: UseBrowserLocation,
   },
 ];
 
