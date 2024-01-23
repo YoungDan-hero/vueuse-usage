@@ -9,7 +9,7 @@ import UseIntersectionObserver from "../functions/useIntersectionObserver/index.
 import UseMouseInElement from "../functions/useMouseInElement/index.vue";
 import UseWindowFocus from "../functions/useWindowFocus/index.vue";
 import UseBrowserLocation from "../functions/useBrowserLocation/index.vue";
-
+import UseClipboard from "../functions/useClipboard/index.vue";
 const routes = [
   {
     path: "/createGlobalState",
@@ -60,6 +60,11 @@ const routes = [
     path: "/useBrowserLocation",
     name: "UseBrowserLocation",
     component: UseBrowserLocation,
+  },
+  {
+    path: "/useClipboard",
+    name: "UseClipboard",
+    component: UseClipboard,
   },
 ];
 
