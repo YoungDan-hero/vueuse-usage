@@ -6,6 +6,7 @@ import UseActiveElement from "../functions/useActiveElement/index.vue";
 import UseDraggable from "../functions/useDraggable/index.vue";
 import UseElementVisibility from "../functions/useElementVisibility/index.vue";
 import UseIntersectionObserver from "../functions/useIntersectionObserver/index.vue";
+import UseMouseInElement from "../functions/useMouseInElement/index.vue";
 const routes = [
   {
     path: "/createGlobalState",
@@ -41,6 +42,11 @@ const routes = [
     path: "/useIntersectionObserver",
     name: "UseIntersectionObserver",
     component: UseIntersectionObserver,
+  },
+  {
+    path: "/useMouseInElement",
+    name: "UseMouseInElement",
+    component: UseMouseInElement,
   },
 ];
 
